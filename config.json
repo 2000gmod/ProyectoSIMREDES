@@ -1,0 +1,31 @@
+{
+    "SubSteps": 100000,
+    "PFall": 0.001,
+
+    "Receptores": [
+        {
+            "Nombre": "01",
+            "Pos": [10.0, 10.0],
+            "PerdidaProb": 0.1
+        },
+        {
+            "Nombre": "02",
+            "Pos": [15.0, 10.0],
+            "PerdidaProb": 0.1
+        },
+        {
+            "Nombre": "03",
+            "Pos": [7.0, 13.0],
+            "PerdidaProb": 0.1
+        }
+    ],
+
+    "Obstaculos": [
+        {
+            "Pos": [6.0, 5.0],
+            "Radio": 2,
+            "RFunc": "1/r^2",
+            "Factor": 0.03
+        }
+    ]
+}
