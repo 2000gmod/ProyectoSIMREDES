@@ -49,7 +49,7 @@ El formato de las opciones es el siguiente:
 * `Obstaculos`: Lista de obstáculos con objetos con los siguientes parámetros:
     - `Pos` : Vector 2D representando la posición.
     - `Radio` : Representa el radio de influencia del obstáculo.
-    - `RFunc` : Función radial de densidad de probabilidad de bloqueo asociada al obstáculo ($f(r)$). Puede ser cualquier función aritmética de la variable $r$. El simulador incluye un parser hecho a mano para interpretar las expresiones matemáticas.
+    - `RFunc` : Función radial de densidad de probabilidad de bloqueo $f(r)$ asociada al obstáculo. Puede ser cualquier función aritmética de la variable $r$. El simulador incluye un parser hecho a mano para interpretar las expresiones matemáticas.
     - `Factor` : Este valor se multiplica por el resultado de evaluar la función de densidad.
 
 ### Salidas
