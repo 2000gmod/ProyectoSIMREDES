@@ -1,8 +1,6 @@
 #include "Scanner.hpp"
 #include "Util.hpp"
 #include <array>
-#include <exception>
-#include <stdexcept>
 #include <string_view>
 
 
